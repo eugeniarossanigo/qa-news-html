@@ -49,12 +49,16 @@ span {
 .about-social div {
     float: left;
     padding-top: 16px;
-    padding-bottom: 16px;
+    height: 50px;
 }
 
 .author {
-    float: left;
     width: 50%;
+}
+
+.social {
+    width: 50%;
+    text-align: right;
 }
 
 .author p {
@@ -67,24 +71,36 @@ span {
     color: #292b2c;
 }
 
-.social {
-    float: right;
-    width: 50%;
-    text-align: right;
-}
-
 .fab, .far {
     padding-left: 10px;
     display: inline-block;
     font-size: x-large;
 }
 
-.principal-image {
-    margin: 20px 0;
+.image-container {
+    clear: both;
+    margin-bottom: 20px;
 }
 
-.principal-image img {
+.principal-image {
     height: 450px;
+}
+
+#img6-jaguar {
+    background: url('img/Mariua-and-cubs-in-water-2-copy-1200x617.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img7-fires {
+    background: url('img/GPA_IncendiosDelta_14-1200x800.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal-image img {   
     width: 100%;
 }
 
