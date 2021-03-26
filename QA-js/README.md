@@ -1,2 +1,0 @@
-# QA-js
-Excercises
